@@ -52,21 +52,19 @@ docker run -d -p 5000:5000 api-retina
 ### capture écran api
 
 # Etape 1: home
-```
-![Alt text](/screenshots/etape1.PNG?raw=true "Title")
-```
+
+![alternativetext](/screenshots/etape1.PNG?raw=true "Title")
 
 # Etape 2: upload
-```
-![Alt text](/screenshots/etape2.PNG?raw=true "Title")
-```
+
+![alternativetext](/screenshots/etape2.PNG?raw=true "Title")
+
 
 # Etape 3: predict
-```
-![Alt text](/screenshots/etape3.PNG?raw=true "Title")
-```
+
+![alternativetext](/screenshots/etape3.PNG?raw=true "Title")
+
 
 # Etape 4: result
-```
-![Alt text](/screenshots/etape4.PNG?raw=true "Title")
-```
+
+![alternativetext](/screenshots/etape4.PNG?raw=true "Title")
