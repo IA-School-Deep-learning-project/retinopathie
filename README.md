@@ -48,3 +48,25 @@ run the container
 ```
 docker run -d -p 5000:5000 api-retina
 ```
+
+### capture écran api
+
+# Etape 1: home
+```
+![Alt text](Capture Api\etape 1.PNG?raw=true "Title")
+```
+
+# Etape 2: upload
+```
+![Alt text](Capture Api\etape 2.PNG?raw=true "Title")
+```
+
+# Etape 3: predict
+```
+![Alt text](Capture Api\etape 3.PNG?raw=true "Title")
+```
+
+# Etape 4: result
+```
+![Alt text](Capture Api\etape 4.PNG?raw=true "Title")
+```

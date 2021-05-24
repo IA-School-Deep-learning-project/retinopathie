@@ -6,7 +6,7 @@ from werkzeug.utils import secure_filename
 from werkzeug.datastructures import  FileStorage
 app = Flask(__name__)
 import urllib.request
-urllib.request.urlretrieve('https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/cb22c59f-24c2-4398-b363-f2e4948b004f/resourcegroups/beasiback_test/workspaces/adn&tid=8c645637-2ab2-41e5-b76a-68592e20eebb&activeFilePath=Users/diamad/PROJET%20DEEPL/model.h5', 'model.h5')
+#urllib.request.urlretrieve('https://ml.azure.com/fileexplorerAzNB?wsid=/subscriptions/cb22c59f-24c2-4398-b363-f2e4948b004f/resourcegroups/beasiback_test/workspaces/adn&tid=8c645637-2ab2-41e5-b76a-68592e20eebb&activeFilePath=Users/diamad/PROJET%20DEEPL/model.h5', 'model.h5')
 UPLOAD_FOLDER = 'static/uploads/'
  
 app.secret_key = "secret key"
