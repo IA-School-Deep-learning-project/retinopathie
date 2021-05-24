@@ -10,6 +10,11 @@
 
 * python >= 3.7
 
+## Notebook
+
+[Notebook](IA_M2_DS_Projet_Deep_Learning.ipynb)
+
+
 ##  Dev
 
 create a virtual env : 
