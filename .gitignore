@@ -1,0 +1,8 @@
+.DS_store
+*.pyc
+.venv
+venv
+tmp/*
+!tmp/.keep
+/static/images/*
+model.h5

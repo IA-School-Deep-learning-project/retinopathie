@@ -1,0 +1,9 @@
+###
+POST http://localhost:5000/upload
+Content-Type: application/json
+Accept: application/json
+
+{
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Atomist_quote_from_Democritus.png/338px-Atomist_quote_from_Democritus.png",
+    "languages": "eng"
+}

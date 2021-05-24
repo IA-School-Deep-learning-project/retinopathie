@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>Api retina predict</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <p>
+    <h1 align="center">Python Flask Api : détection et la classification de la RETINOPATHIE DIABÉTIQUE à partir d'images de la rétine.</h1>
+    </p>
+    <div class="container">
+        <div class="row">
+            <h2>Select a retina image file to upload</h2>
+            <p>
+                {% with messages = get_flashed_messages() %}
+                {% if messages %}
+            <ul>
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            {% endwith %}
+            </p>
+            {% if filename %}
+            <div class="col-md-4">
+                <div>
+                    <p>
+                        {{label}}
+                    </p>
+                </div>
+                <img src="{{ url_for('display_image', filename=filename) }}" height="350" width="350">
+            </div>
+            <div class="col-md-4">
+                <img src="/static/images/plot.png" height="400" width="400">
+            </div>
+            {% endif %}
+            <form method="post" action="/" enctype="multipart/form-data">
+                <dl>
+                    <p>
+                        <input type="file" name="file" class="form-control" autocomplete="off" required>
+                    </p>
+                </dl>
+                <p>
+                    <input type="submit" value="Send image" class="btn btn-info">
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
